@@ -18,6 +18,8 @@
   "homepage": "https://github.com/mtrogers/kaleidoscope",
   "dependencies": {
     "johnny-five": "^0.8.44",
-    "three": "^0.70.0"
+    "three": "^0.70.0",
+    "socket.io": "^1.3.4",
+    "color-scheme": "^0.0.5"
   }
 }

@@ -20,7 +20,7 @@ var io = require('socket.io')(server);
       });
       dial = new five.Sensor({
         pin: "A0",
-        freq: 25
+        freq: 25 //todo: confirm 25 a safe clock
       });
       board.repl.inject({
         pot: pott,
